@@ -1,0 +1,41 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.theme-light {
+  --background: #f1f3f6;
+  --text: #222222;
+  --card: #ffffff;
+}
+
+.theme-dark {
+  --background: #181818;
+  --text: #ffffff;
+  --card: #292929;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+input,
+select,
+textarea,
+button {
+  font-family: inherit;
+}
+
+button {
+  transition: 0.2s ease;
+}
+
+img {
+  max-width: 100%;
+}
